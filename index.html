@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="StyleSheet.css">
+        <title>Kristoffer R. Nielsen's webpage</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- header start -->
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="Kris.jpg">
+            <p>Kristoffer R. Nielsen</p>
+        </div>
+        <!-- header end -->
+        
+        <!-- About Me section start -->
+        <div class="section">
+            <h1><span>About Me</span></h1>
+            <p align="center">
+                Hey! I'm <strong>Kristoffer</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level.<br /> I'm 20 years old and currently lives at home while i'm studying. I always loved to play around with IT gadgets, and everytime I got a new gadget I would play around with it all day to learn how everything worked.<br /> I try to learn everything I can while I'm in school, but I do some self-study in my sparetime. Actully HTML/CSS/JavaScript is not something we learn in our classes, I try to learn it during my self-study hours, which is going quite well. 
+            </p>
+            <p align="center" style="color:red;">This Site Is currently not being worked on, because I'm doing a programming project in school!</p>
+            <p class="quote">"Declare variables, not war"</p>
+        </div>
+        <!-- About Me section end -->
+        
+        <!-- My Schedule section start -->
+        <div class="section">
+            <h1><span>My Schedule</span></h1>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>8-9:10</td>
+                    <td class="selected">School</td>
+                    <td class="selected">School</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">School</td>
+                </tr>
+                <tr>
+                    <td>9:10-9:40</td>
+                    <td class="selected">School</td>
+                    <td class="selected">School</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">School</td>
+                </tr>
+                <tr>
+                    <td>9:40-9:55</td>
+                    <td class="break">Break</td>
+                    <td class="break">Break</td>
+                    <td class="break">Break</td>
+                    <td class="break">Break</td>
+                    <td class="break">Break</td>
+                
+                </tr>
+                <tr>
+                    <td>9:55-11:25</td>
+                    <td class="selected">School</td>
+                    <td class="selected">School</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">School</td>
+                </tr>
+                <tr>
+                    <td>11:25-11:55</td>
+                    <td class="lunch">Lunch</td>
+                    <td class="lunch">Lunch</td>
+                    <td class="lunch">Lunch</td>
+                    <td class="lunch">Lunch</td>
+                    <td class="lunch">Lunch</td>
+                </tr>
+                <tr>
+                    <td>11:55-13:25</td>
+                    <td class="selected">School</td>
+                    <td class="selected">School</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">School</td>
+                </tr>
+                <tr>
+                    <td>13:25-13:40</td>
+                    <td class="break">Break</td>
+                    <td class="break">Break</td>
+                    <td class="break">Break</td>
+                    <td class="break">Break</td>
+                    <td class="break">Break</td>
+                </tr>
+                <tr>
+                    <td>13:40-14:10</td>
+                    <td class="selected">School</td>
+                    <td class="selected">School</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">Self-study</td>
+                    <td class="selected">School</td>
+                </tr>
+                <tr>
+                    <td>14:10-15:10</td>
+                    <td class="selected">School</td>
+                    <td class="selected">School</td>
+                    <td class="home">Home</td>
+                    <td class="home">Home</td>
+                    <td class="selected">School</td>
+                </tr>
+            </table>
+        </div>
+        <!-- My Schedule section end -->
+        
+        
+        <!-- My Skills section start -->
+        <div class="section">
+            <h1><span>My Skills</span></h1>
+            <ul>
+                <li>HTML <br />
+                    <progress min="0" max="100" value="30"></progress>
+                </li>
+                <li>JavaScript <br />
+                    <progress min="0" max="100" value="10"></progress>
+                </li>
+                <li>Python <br />
+                    <progress min="0" max="100" value="10"></progress>
+                </li>
+                <li>C# <br />
+                    <progress min="0" max="100" value="40"></progress>
+                </li>
+                <li>CSS <br />
+                    <progress min="0" max="100" value="30"></progress>
+                </li>
+            </ul>
+        </div>
+        <!-- My Skills section end -->
+        
+        <!-- Form section start -->
+       <div class="section">
+           
+            <h1><span>Contact Me</span></h1>
+            
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="#000000"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+            </svg>
+                
+            <form method="post" action="contact.php">
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- Form section end -->
+        
+        <!-- Contacts section start -->
+        <div class="section" id="contacts">
+            <h1><span>Social Media</span></h1>
+            <div>
+                <a href="https://www.facebook.com/kristoffer.rasmusnielsen" target="_blank">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                </a>
+                <a href="https://www.linkedin.com/in/kristoffer-nielsen-a64b481a3/" target="_blank">
+                    <img alt="LinkedIn" src="LinkedIn.png" />
+                
+                </a>
+            </div>
+        </div>
+        <!-- Contacts section end -->
+        
+        <div class="copyright">
+            &copy; 2020 Kristoffer Nielsen. All rights reserved.
+        </div>
+        
+    </body>
+</html>
