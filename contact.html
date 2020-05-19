@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kristoffer Nielsen's Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+  <body>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">My website 2.5</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </div>
+    <main class="flex">
+        <div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </div>
+            <form action="php/contact.php" method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div> 
+
+    </main>
+    <footer>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/kristoffer-nielsen-a64b481a3/" target="_blank" class="bx bxl-linkedin-square bx-md bx-tada-hover"></a></li>
+        <li><a href="https://github.com/kriras99?tab=repositories" style="color:#e3aa0e" target="_blank" class="bx bxl-github bx-md bx-tada-hover"></a></li>
+        <li><a href="https://www.facebook.com/kristoffer.rasmusnielsen" target="_blank" class="bx bxl-facebook-square bx-md bx-tada-hover"></a></li>
+      </ul>
+      <p class="copyright">Copyright 2020, Kristoffer Nielsen</p>
+    </footer>
+  </body>
+  </html>
